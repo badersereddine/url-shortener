@@ -9,7 +9,7 @@ public class HelloController {
     // GET /hello -> simple ping
     @GetMapping("/hello")
     public String hello() {
-        return "Hello World 👋";
+        return "Hello World!";
     }
 
     // GET /health -> healthcheck minimal

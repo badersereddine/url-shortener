@@ -1,0 +1,7 @@
+@host = https://sturdy-space-fortnight-gxx9gqvwvjq3pp4w-8080.app.github.dev
+
+### Test GET /hello
+GET {{host}}/hello
+
+### Test GET /health
+GET {{host}}/health
